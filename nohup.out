@@ -1,0 +1,26 @@
+INFO  Start processing
+INFO  Hexo is running at http://localhost:80/. Press Ctrl+C to stop.
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.
+FATAL Port 80 has been used. Try other port instead.
+FATAL Something's wrong. Maybe you can find the solution here: http://hexo.io/docs/troubleshooting.html
+Error: listen EADDRINUSE 0.0.0.0:80
+    at Object._errnoException (util.js:992:11)
+    at _exceptionWithHostPort (util.js:1014:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1355:14)
+    at listenInCluster (net.js:1396:12)
+    at doListen (net.js:1505:7)
+    at _combinedTickCallback (internal/process/next_tick.js:141:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: ENOENT: no such file or directory, open '/usr/hexo/newhexo/themes/material/node_modules/.staging/fsevents-58d523c1/node_modules/core-util-is/lib/util.js'
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: ENOENT: no such file or directory, open '/usr/hexo/newhexo/themes/material/node_modules/fsevents/build/gyp-mac-tool'
